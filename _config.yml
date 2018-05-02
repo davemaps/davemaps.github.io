@@ -5,5 +5,7 @@ timezone: America/New_York
 
 theme: jekyll-theme-primer
 
+permalink: /:categories/:title
+
 plugins:
   - jekyll-feed
