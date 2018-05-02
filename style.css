@@ -61,9 +61,9 @@ nav ul li {
 }
 
 nav > ul > li > a {
-	color: #666;
+	color: #333;
 	display: block;
-	font-weight: 600;
+	font-weight: 500;
 	padding: 0 1em 0 0;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -123,6 +123,12 @@ footer, footer a {
 	body {
 		font-size: 1.2em;
 		margin-top: 1.5em;
+	}
+
+	nav > ul > li > a {
+		font-size: 1.1em;
+		padding: 0 1.5em 0 0;
+	}
 }
 
 @media only screen and (min-width: 900px) {
@@ -133,7 +139,7 @@ footer, footer a {
 	}
 
 	nav > ul > li > a {
-		font-size: 1.3em;
+		font-size: 1.2em;
 		padding: 0 2em 0 0;
 	}
 }
