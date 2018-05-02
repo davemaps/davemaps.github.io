@@ -1,5 +1,6 @@
 ---
 title: Test Page
+layout: default
 ---
 
 Here is a test page!
