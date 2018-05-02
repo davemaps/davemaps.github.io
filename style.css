@@ -22,14 +22,14 @@ body {
                 Cantarell, 
                 "Helvetica Neue", 
                 sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4em;
 	font-weight: 300;
 	margin: 1em auto 0 auto;
 	width: 92%;
 }
 
 p, blockquote {
-	font-size: 1.2em;
-	line-height: 1.3em;
 }
 
 blockquote {
