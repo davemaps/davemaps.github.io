@@ -60,8 +60,7 @@ nav ul li {
 nav > ul > li > a {
 	color: #333;
 	display: block;
-	font-size: 1.5em;
-	padding: 0 48px 0 0;
+	padding: 0 1em 0 0;
 	text-decoration: none;
 }
 
@@ -114,6 +113,11 @@ footer, footer a {
 	body {
 		font-size: 1.6em;
 		margin-top: 1.5em;
+	}
+
+	nav > ul > li > a {
+		font-size: 1.5em;
+		padding: 0 2em 0 0;
 	}
 }
 
