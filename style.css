@@ -28,7 +28,7 @@ body {
 	width: 92%;
 }
 
-body p {
+p, blockquote {
 	line-height: 1.3em;
 }
 
