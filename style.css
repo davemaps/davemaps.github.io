@@ -109,11 +109,13 @@ footer, footer a {
 @media only screen and (min-width : 600px) {
 	body {
 		font-size: 1.6em;
+		margin-top: 1.5em;
 	}
 }
 
 @media only screen and (min-width: 900px) {
 	body {
+		margin-top: 2em;
 		width: 80%;
 	}
 }
