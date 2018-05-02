@@ -10,3 +10,5 @@ Here is a test page!
 Some more content goes here.
 
 Lorem ipsum, etc.
+
+![Me and my son]({{ "/assets/img/me-and-son.jpg" | absolute_url }})
