@@ -117,6 +117,7 @@ article p.morelinks a {
 
 footer, footer a {
 	color: #666;
+	text-decoration: none;
 }
 
 @media only screen and (min-width : 600px) {
