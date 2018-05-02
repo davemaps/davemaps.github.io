@@ -22,11 +22,14 @@ body {
                 Cantarell, 
                 "Helvetica Neue", 
                 sans-serif;
-    font-size: 1.6em;
-    font-weight: 300;
-    line-height: 1.3em;
-    margin: 2em auto 0 auto;
-    width: 96%;
+	font-size: 1.6em;
+	font-weight: 300;
+	margin: 2em auto 0 auto;
+	width: 94%;
+}
+
+p, blockquote {
+	line-height: 1.3em;
 }
 
 header h1 {
@@ -117,6 +120,6 @@ footer, footer a {
 
 @media only screen and (min-width: 1200px) {
 	body {
-		width: 80%;
+		max-width: 1024px;
 	}
 }
