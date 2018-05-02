@@ -3,7 +3,7 @@ description: davemaps.com is the online presence of Dave McLaughlin, web develop
 
 timezone: America/New_York
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-primer
 
 plugins:
   - jekyll-feed
