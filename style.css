@@ -123,8 +123,14 @@ footer, footer a {
 
 @media only screen and (min-width: 900px) {
 	body {
+		font-size: 1.6em;
 		margin-top: 2em;
 		width: 80%;
+	}
+
+	nav > ul > li > a {
+		font-size: 1.5em;
+		padding: 0 2em 0 0;
 	}
 }
 
