@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "Third Test Post"
+title:  Third Test Post
 date:   2018-05-01 10:20:20 -0500
-categories: photos
 ---
 
 ![Me and my son]({{ "/assets/img/photo-me-and-son.jpg" | absolute_url }})

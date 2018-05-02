@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "Second Test Post"
+title:  Second Test Post
 date:   2018-05-01 09:20:20 -0500
-categories: maps
 ---
 
 Here is another post.
