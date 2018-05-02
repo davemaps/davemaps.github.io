@@ -25,7 +25,7 @@ body {
 	font-size: 1.6em;
 	font-weight: 300;
 	margin: 2em auto 0 auto;
-	width: 95%;
+	width: 92%;
 }
 
 body p {
@@ -116,4 +116,7 @@ footer, footer a {
 }
 
 @media only screen and (min-width: 1200px) {
+	body {
+		width: 66%;
+	}
 }
