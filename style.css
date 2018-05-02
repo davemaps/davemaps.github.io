@@ -35,6 +35,10 @@ blockquote {
 	color: #666;
 }
 
+header {
+	font-size: 0.8em;
+}
+
 header h1 {
 	color: #666;
 	font-weight: 300;
