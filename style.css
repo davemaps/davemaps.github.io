@@ -26,7 +26,7 @@ body {
     font-weight: 300;
     line-height: 1.3em;
     margin: 2em auto 0 auto;
-    width: 98%;
+    width: 95%;
 }
 
 header h1 {
@@ -104,9 +104,6 @@ footer, footer a {
 }
 
 @media only screen and (min-width : 600px) {
-	body {
-		width: 95%;
-	}
 }
 
 @media only screen and (min-width: 900px) {
@@ -116,7 +113,4 @@ footer, footer a {
 }
 
 @media only screen and (min-width: 1200px) {
-	body {
-		width: 80%;
-	}
 }
