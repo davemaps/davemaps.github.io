@@ -22,11 +22,14 @@ body {
                 Cantarell, 
                 "Helvetica Neue", 
                 sans-serif;
-    font-size: 1.6em;
-    font-weight: 300;
-    line-height: 1.3em;
-    margin: 2em auto 0 auto;
-    width: 95%;
+	font-size: 1.6em;
+	font-weight: 300;
+	margin: 2em auto 0 auto;
+	width: 95%;
+}
+
+body p {
+	line-height: 1.3em;
 }
 
 header h1 {
@@ -36,8 +39,8 @@ header h1 {
 }
 
 nav {
-    display: block;
-    margin: 0 0 3em 0;
+	display: block;
+	margin: 0 0 3em 0;
 }
 
 nav ul {
