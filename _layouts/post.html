@@ -1,8 +1,8 @@
 {% include head.html %}
 		<main role="main">
 			<article>
-				<h1>{{ title }}</h1>
-				<p class="dateline"><time date time="{{ date | date: "%F" }}">Posted {{ date | date: "%b %-d, %Y" }}</time></p>
+				<h1>{{ page.title }}</h1>
+				<p class="dateline"><time date time="{{ page.date | date: "%F" }}">Posted {{ page.date | date: "%b %-d, %Y" }}</time></p>
 				{{ content }}
 			</article>
 		</main>
