@@ -114,7 +114,7 @@ footer, footer a {
 
 @media only screen and (min-width: 900px) {
 	body {
-		max-width: 960px;
+		max-width: 1024px;
 		width: 80%;
 	}
 }
