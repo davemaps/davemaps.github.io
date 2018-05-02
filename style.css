@@ -24,7 +24,7 @@ body {
                 sans-serif;
 	font-weight: 300;
 	margin: 1em auto 0 auto;
-	width: 92%;
+	width: 90%;
 }
 
 p, blockquote {
@@ -84,14 +84,14 @@ article h1 {
 	margin-bottom: 0.2em;
 }
 
+article h2 {
+	font-weight: 300;
+}
+
 article p.dateline {
 	color: #666;
 	font-size: .8em;
 	margin-top: 0;
-}
-
-article.h1 {
-	font-weight: 300;
 }
 
 article img {
@@ -116,9 +116,6 @@ footer, footer a {
 }
 
 @media only screen and (min-width : 600px) {
-	body {
-		width: 90%;
-	}
 }
 
 @media only screen and (min-width: 900px) {
