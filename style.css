@@ -32,6 +32,10 @@ p, blockquote {
 	line-height: 1.3em;
 }
 
+blockquote {
+	color: #666;
+}
+
 header h1 {
 	color: #666;
 	font-weight: 300;
