@@ -1,11 +1,14 @@
 title: Dave McLaughlin
 description: davemaps.com is the online presence of Dave McLaughlin, web developer and GIS graduate student.
 
-timezone: America/New_York
-
-theme: jekyll-theme-primer
-
 permalink: /:categories/:title
+theme: jekyll-theme-primer
+timezone: America/New_York
 
 plugins:
   - jekyll-feed
+  
+defaults:
+  -
+    author: Dave McLaughlin
+    layout: post
