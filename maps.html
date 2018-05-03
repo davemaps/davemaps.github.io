@@ -1,17 +1,5 @@
 ---
 title: Maps
+layout: category
 category: maps
 ---
-
-{% include head.html %}
-		<main role="main">
-		<h1>{{ page.title }}</h1>
-		{% for post in site.categories[page.category] %}
-			<article>
-				<h1><a href="{{ post.url }}">{{ post.title}}</a></h1>
-				<p class="dateline"><time date time="{{ post.date | date: "%F" }}">Posted {{ post.date | date: "%b %-d, %Y" }}</time></p>
-				{{ post.content }}
-			</article>
-		{% endfor %}
-		</main>
-{% include footer.html %}
