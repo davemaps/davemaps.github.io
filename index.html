@@ -20,7 +20,7 @@
 				{% endif %}
 					<a href="/{{category|slugize}}">{{category}}</a>
 				{% unless forloop.last %}&nbsp;{% endunless %}
-				{ if forloop.last %}
+				{% if forloop.last %}
 					</p>
 				{% endif %}
 				{% endfor %}
