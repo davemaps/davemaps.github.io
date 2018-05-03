@@ -8,3 +8,5 @@ layout: page
 I’ve been a web developer for over ten years and am currently a graduate student in Geographic Information Systems. davemaps.com serves as my online home – a place where I share things I’ve created or found.
 
 I live in Seven Valleys, Pennsylvania with my wife and two kids.
+
+You can find me on micro.blog <a href="https://micro.blog/davemaps" rel="me">@davemaps</a>.
