@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Peering Through the Trees
 date:   2018-05-03 13:35:04 -0400
 categories: [ maps, links ]
