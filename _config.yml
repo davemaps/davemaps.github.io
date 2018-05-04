@@ -7,6 +7,10 @@ theme: jekyll-theme-primer
 timezone: America/New_York
 url: https://davemaps.com
 
+collections:
+  drafts:
+    output: true
+
 plugins:
   - jekyll-feed
   
@@ -14,3 +18,9 @@ defaults:
   -
     author: Dave McLaughlin
     layout: post
+  -
+    scope:
+      path: ""
+      type: drafts
+    value:
+      layout: draf

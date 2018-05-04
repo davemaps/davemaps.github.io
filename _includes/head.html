@@ -4,6 +4,13 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+	{% if page.meta_robots %}    
+		<meta name="robots" content="{{ page.meta_robots }}">
+	{% elsif layout.meta_robots %}
+		<meta name="robots" content="{{ layout.meta_robots }}">
+	{% else %}
+		<meta name="robots" content="all">
+	{% endif %}
 		<meta name="description" content="{{ site.description }}">
 	{% if page.url == "/" %}
 		<title>davemaps.com &ndash; home of Dave McLaughlin</title>
