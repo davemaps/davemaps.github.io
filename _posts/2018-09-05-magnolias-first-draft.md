@@ -15,3 +15,5 @@ I saw some gorgeous [tree distribution maps by Bill Rankin](http://www.radicalca
 After finding my way back to [Ben Fry’s All Streets map](http://benfry.com/writing/archives/54/), and the musing he posted about wanting to compare street names to tree distributions since so many streets are named after trees, I was off to try to make something. He mentioned magnolias, so I started there.
 
 I’ve thought for a while that I’d like to try to create some maps showing places (streets, towns, counties, etc.) that are named after species (plant or animal) that no longer reside there, due to habitat loss, extinction, climate change, etc. Maybe I’ll get there someday!
+
+First priority for this map is dissolving the tree data a bit and working to make things more legible at normal sizes.
