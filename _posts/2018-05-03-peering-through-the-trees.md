@@ -1,7 +1,7 @@
 ---
 title:  Peering Through the Trees
 date:   2018-05-03 13:35:04 -0400
-categories: [ maps, links ]
+categories: [ links ]
 ---
 
 ![LIDAR image of a portion of Bainbridge Island]({{ "/assets/img/link-bainbridge-fault.jpg" | absolute_url }})
