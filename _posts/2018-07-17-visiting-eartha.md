@@ -6,7 +6,7 @@ categories: [ photos, links ]
 
 ![Katie, beside Eartha]({{ "/assets/img/photo-eartha-katie.jpg" | absolute_url }})
 
-My wife and I took a 10th anniversary trip (sans kids, thanks Mom & Dad!) to Portland, ME, and while there visited [Eartha, the world’s largest rotating globe](https://www.roadsideamerica.com/story/10408). Built at Delorme’s (now Garmin) headquarters in Yarmouth, just a few minutes north on I-295 from Portland, the globe is just over 41 feet in diameter and is printed with shaded relief and depth.
+My wife and I took a 10th-anniversary trip (sans kids, thanks Mom & Dad!) to Portland, ME, and while there visited [Eartha, the world’s largest rotating globe](https://www.roadsideamerica.com/story/10408). Built at Delorme’s (now Garmin) headquarters in Yarmouth, just a few minutes north on I-295 from Portland, the globe is just over 41 feet in diameter and is printed with shaded relief and depth.
 
 We watched from all three stories of viewing platforms for more than a day…but of course a day on Eartha (one full rotation) only takes 18 minutes.
 
