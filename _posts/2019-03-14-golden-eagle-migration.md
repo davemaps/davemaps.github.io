@@ -4,7 +4,9 @@ date:   2019-03-14 09:19:15 -0400
 categories: [ maps ]
 ---
 
-![Five Years of Golden Eagle Migration in One Minute]({{ "/assets/vid/golden-eagle-migration.mp4" | absolute_url }})
+<video src="/assets/vid/golden-eagle-migration.mp4" controls>
+    Five Years of Golden Eagle Migration in One Minute
+</video>
 
 Five years of golden eagle (Aquila chrysaetos) migration in one minute!
 
