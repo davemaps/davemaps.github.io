@@ -4,7 +4,7 @@ date:   2019-03-14 09:19:15 -0400
 categories: [ maps ]
 ---
 
-<video src="/assets/vid/golden-eagle-migration.mp4" controls>
+<video src="/assets/vid/golden-eagle-migration.mp4" poster="/assets/img/golden-eagle-migration-thumb.png" controls style="max-width: 100%;">
     Five Years of Golden Eagle Migration in One Minute
 </video>
 
