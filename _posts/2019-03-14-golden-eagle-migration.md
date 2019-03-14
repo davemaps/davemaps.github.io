@@ -16,4 +16,4 @@ I manipulated the data and animated the map (ArcMap) with Python and arcpy for a
 
 The base map is made with [Natural Earth data](https://www.naturalearthdata.com/). I overlayed the eagles locations as points, scripted the sequential exporting of each day as an image, then compiled those images into a video with [FFmpeg](https://ffmpeg.org).
 
-Many thanks to CCB for their work and for access to the data from their [Tracking Golden Eagles in Eastern North America](https://ccbbirds.org/what-we-do/research/tracking/tracking-projects/tracking-golden-eagles-eastern-north-america/) project, where you can learn more about the birds.
+Many thanks to CCB for their work and for access to the data from their [Tracking Golden Eagles in Eastern North America](https://ccbbirds.org/what-we-do/research/tracking/tracking-projects/tracking-golden-eagles-eastern-north-america/) project, where you can learn more about the birds and the impetus for studying them.
