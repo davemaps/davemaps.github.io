@@ -98,7 +98,7 @@ article p.dateline {
 	margin-top: 0;
 }
 
-article img, video {
+article img, article video {
 	max-width: 100%;
 }
 
