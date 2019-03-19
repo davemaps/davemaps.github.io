@@ -9,4 +9,4 @@ I’ve been a web developer for over twelve years and am currently a graduate st
 
 I live in Seven Valleys, Pennsylvania with my wife and two kids.
 
-You can find me <a href="https://micro.blog/davemaps" rel="me">on micro.blog @davemaps</a>.
+You can find me <a href="https://micro.blog/davemaps" rel="me">on micro.blog @davemaps</a>, or [on Twitter @davecreates](https://twitter.com/davecreates).
