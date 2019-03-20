@@ -1,7 +1,7 @@
 ---
 title:  Buttle Lake Hillshade
 date:   2019-03-20 16:36:19 -0400
-categories: [ links, maps ]
+categories: [ maps ]
 ---
 
 ![Strathcona Provincial Park’s Buttle Lake Hillshade]({{ "/assets/img/map-buttle-lake-hillshade.jpg" | absolute_url }})
