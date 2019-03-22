@@ -11,5 +11,5 @@ Followed Mike Bostock’s four-part [Command Line Cartography tutorial][1], usin
 Data: [American Community Survey][3] 2017 5-Year Estimate
 
 [1]:	https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c
-[2]: https://d3.js/
+[2]: https://d3js.org/
 [3]:	https://www.census.gov/acs/www/
