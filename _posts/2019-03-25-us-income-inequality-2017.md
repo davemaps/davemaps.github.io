@@ -6,7 +6,7 @@ categories: [ maps ]
 
 ![Bivariate choropleth map showing levels of income and income inequality in the United States, by county.]({{ "/assets/img/map-us-income-inequality-2017.jpg" | absolute\_url }})
 
-Mapping median household income levels compared to income inequality (using the Gini coefficient) with American Community Survey data. This was another bit of playing around with Mike Bostock’s [D3][1], this time with his [Observable notebook][2] on making bivariate choropleth maps.
+Mapping county-level median household income levels compared to income inequality (using the Gini coefficient) with American Community Survey data. This was another bit of playing around with Mike Bostock’s [D3][1], this time with his [Observable notebook][2] on making bivariate choropleth maps.
 
 Data: [American Community Survey][3] 2017 5-Year Estimate
 
