@@ -1,14 +1,18 @@
 		<footer>
-			<p>
-				<a href="/">davemaps.com</a> is the online home of <a href="/about">Dave McLaughlin</a>, web developer and GIS graduate student.<br>
-				<a href="/feed.xml">Atom feed</a>, 
-			{% if page.url == "/" or page.url == "/about" %}
-				<a href="https://micro.blog/davemaps" rel="me">@davemaps on micro.blog</a>, 
-			{% else %}
-				<a href="https://micro.blog/davemaps">@davemaps on micro.blog</a>, 
-			{% endif %}
-				<a href="https://twitter.com/davecreates">@davecreates on twitter</a>
-			</p>
+			<p><a href="https://davemaps.com/" rel="home">davemaps.com</a> is the online home of <a href="/about">Dave McLaughlin</a>, web developer and GIS graduate student.</p>
+			<nav aria-label="Feed and Social Media Links">
+				<ul>
+					<li>	<a href="/feed.xml" rel="home alternate">Atom feed</a></li>
+					<li>
+					{% if page.url == "/" or page.url == "/about" %}
+						<a href="https://micro.blog/davemaps" rel="me">@davemaps on micro.blog</a>
+					{% else %}
+						<a href="https://micro.blog/davemaps">@davemaps on micro.blog</a>
+					{% endif %}
+					</li>
+					<li><a href="https://twitter.com/davecreates">@davecreates on twitter</a></li>
+				</ul>
+			</nav>
 		</footer>
 	
 	</body>
