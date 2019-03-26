@@ -11,12 +11,14 @@
 				{% endif %}
 				{% for category in categories %}
 				{% if forloop.first %}
-					<p class="morelinks">MORE<br>
+					<nav class="morelinks">MORE
+						<ul>
 				{% endif %}
-					<a href="/{{category|slugize}}">{{category}}</a>
+							<li><a href="/{{category|slugize}}">{{category}}</a></li>
 				{% unless forloop.last %}&nbsp;{% endunless %}
+						</ul>
 				{% if forloop.last %}
-					</p>
+					</nav>
 				{% endif %}
 				{% endfor %}
 			</article>

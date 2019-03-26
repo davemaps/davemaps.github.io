@@ -108,14 +108,14 @@ article img, article video {
 	max-width: 100%;
 }
 
-article p.morelinks {
+article nav.morelinks {
 	color: #aaa;
 	font-size: .6em;
 	line-height: 1.5em;
 	margin-top: 3em;
 }
 
-article p.morelinks a {
+article nav.morelinks a {
 	color: #ccc;
 	font-size: 1.2em;
 	text-decoration: none;
