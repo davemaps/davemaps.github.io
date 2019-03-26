@@ -10,15 +10,11 @@
 					{% assign categories = page.categories %}
 				{% endif %}
 				{% for category in categories %}
-					{% if forloop.first %}
-					<nav class="morelinks" aria-label="Category Links">MORE
-						<ul>
-					{% endif %}
+					{% if forloop.first %}<nav class="morelinks" aria-label="Category Links">MORE
+						<ul>{% endif %}
 							<li><a href="/{{category|slugize}}">{{category}}</a></li>
-					{% if forloop.last %}
-						</ul>
-					</nav>
-					{% endif %}
+					{% if forloop.last %}</ul>
+					</nav>{% endif %}
 				{% endfor %}
 			</article>
 		</main>
