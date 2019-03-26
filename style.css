@@ -61,7 +61,7 @@ nav ul li {
 	list-style-type: none;
 }
 
-nav > ul > li > a {
+header > nav > ul > li > a {
 	color: #ccc;
 	display: block;
 	font-weight: 500;
