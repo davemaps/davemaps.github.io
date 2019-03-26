@@ -1,7 +1,7 @@
 ---
 title:  Visiting Eartha
 date:   2018-07-17 19:39:25 -0400
-categories: [ photos, links ]
+categories: [ photos ]
 ---
 
 ![Katie, beside Eartha]({{ "/assets/img/photo-eartha-katie.jpg" | absolute_url }})
