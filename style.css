@@ -127,7 +127,7 @@ footer, footer a {
 		margin-top: 1.5em;
 	}
 
-	nav > ul > li > a {
+	header > nav > ul > li > a {
 		font-size: 1.1em;
 		padding: 0 1.5em 0 0;
 	}
@@ -140,7 +140,7 @@ footer, footer a {
 		width: 80%;
 	}
 
-	nav > ul > li > a {
+	header > nav > ul > li > a {
 		font-size: 1.2em;
 		padding: 0 2em 0 0;
 	}
