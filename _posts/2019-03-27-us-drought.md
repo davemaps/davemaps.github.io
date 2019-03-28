@@ -4,7 +4,7 @@ date:   2019-03-27 20:18:18 -0400
 categories: [ maps ]
 ---
 
-<video src="/assets/vid/us-drought-4k.mp4" poster="/assets/img/us-drought-thumb.png" controls style="max-width: 100%;">
+<video src="/assets/vid/us-drought-hd.mp4" poster="/assets/img/us-drought-thumb.png" controls style="max-width: 100%;">
     Nineteen years of drought in the United States in one minute.
 </video>
 
