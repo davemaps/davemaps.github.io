@@ -8,7 +8,7 @@ categories: [ maps ]
     Nineteen years of drought in the United States in one minute.
 </video>
 
-Here are nineteen years’ worth of drought maps, animated across just over a minute. Darker red-orange marks more severe drought conditions, as you might have guessed.
+Here are nineteen years’ worth of drought maps, animated across just over a minute. Darker red-orange marks more severe drought conditions, as you might have guessed. Look at how parts of Southern California have spent essentially the last decade in drought, with few periods of relief.
 
 I manipulated the data on the map (ArcGIS Pro) with Python and arcpy, scripting the export of each frame as a png. Then I used [GMIC][1] to smooth an extra frame in-between (“tween”) the maps, which helps the animation not feel quite as jumpy. Lastly, I compiled all of those frames into a video with [FFmpeg][2].
 
