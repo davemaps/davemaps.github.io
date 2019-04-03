@@ -6,7 +6,7 @@ categories: [ maps ]
 
 ![Three maps of Milwaukee, showing the white and black populations, as well as the three major racial groups together.]({{ "/assets/img/map-milwaukee-segregation-2048.jpg" | absolute\_url }})
 
-A dot density map of Milwaukee showing white, black, and Latinx residents in the Bucks’ colors. A [2018 Brookings study][1] showed Milwaukee as having the highest black-white segregation among large American cities.
+A dot density map of Milwaukee, Wisconsin, showing white, black, and Latinx residents in the Bucks’ colors. A [2018 Brookings study][1] showed Milwaukee as having the highest black-white segregation among large American cities.
 
 In a March [interview in The Guard][2], Bucks’ guard Malcolm Brogdon spoke about his experience of living in such a segregated city. The NBA team has a very public recent history with the issue of racial inequality.
 
