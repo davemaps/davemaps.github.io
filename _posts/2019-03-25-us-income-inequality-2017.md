@@ -13,4 +13,4 @@ Data: [American Community Survey][4] 2017 5-Year Estimate
 [1]: https://en.wikipedia.org/wiki/Gini_coefficient
 [2]: https://d3js.org/
 [3]: https://observablehq.com/@d3/bivariate-choropleth
-[4]:	https://www.census.gov/acs/www/
+[4]: https://www.census.gov/acs/www/
