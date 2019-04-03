@@ -23,5 +23,5 @@ Data: [American Community Survey][6] 2017 5-Year Estimate
 [3]: https://nba.nbcsports.com/2019/03/15/bucks-malcolm-brogdon-milwaukee-extremely-segregated/
 [4]: https://www.jsonline.com/story/sports/nba/bucks/2019/03/06/bucks-guard-malcolm-brogdon-milwaukee-segregated-needs-change/3074086002/
 [5]: https://www.jsonline.com/story/sports/nba/bucks/2018/06/20/milwaukee-bucks-gm-jon-horst-gives-strong-support-sterling-brown/715651002/
-[6]: {{ "/assets/img/map-milwaukee-segregation-2048.jpg" | absolute\_url }}
+[6]: {{ "/assets/img/map-milwaukee-segregation.jpg" | absolute\_url }}
 [7]: https://www.census.gov/acs/www/
