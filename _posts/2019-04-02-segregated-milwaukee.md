@@ -8,7 +8,7 @@ categories: [ maps ]
 
 A dot density map of Milwaukee, Wisconsin, showing white, black, and Latinx residents in the Bucks’ colors. A [2018 Brookings study][1] showed Milwaukee as having the highest black-white segregation among large American cities.
 
-In a March [interview in The Guard][2], Bucks’ guard Malcolm Brogdon spoke about his experience of living in such a segregated city. The NBA team has a very public recent history with the issue of racial inequality.
+In a March [interview in The Guardian][2], Bucks’ guard Malcolm Brogdon spoke about his experience of living in such a segregated city. The NBA team has a very public recent history confronting racism.
 
 In 2015, center John Henson [had the police called on him][3] while attempting to buy a watch at a suburban jewelry store. Bucks president Peter Feigin called the city “the most segregated and racist place” a year later, and [the organization has been outspoken][4] in support of its players and in working on issues of racial inequity.
 
