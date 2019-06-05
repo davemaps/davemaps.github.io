@@ -14,7 +14,7 @@ meta_robots: noindex
 				{% endif %}
 				{% for category in categories %}
 					{% if forloop.first %}
-					<nav class="morelinks" aria-label="Category Links">MORE
+					<nav class="morelinks" aria-label="Category Links for {{ page.title }}">MORE
 						<ul>
 					{% endif %}
 							<li><a href="/{{category|slugize}}">{{category}}</a></li>
