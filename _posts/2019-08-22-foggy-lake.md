@@ -8,4 +8,4 @@ categories: [ photos ]
 
 A companion photo to [Forbidden Lake][1], this has been my desktop background for a year. Taken during one of the most magical moments I experience on Vancouver Island last year, this was also along the shore of a lake on the Forbidden Plateau area of Strathcona Provincial Park.
 
-[1]: (/photos/forbidden-lake | absolute_url)
+[1]: (https://davemaps.com/photos/forbidden-lake)
