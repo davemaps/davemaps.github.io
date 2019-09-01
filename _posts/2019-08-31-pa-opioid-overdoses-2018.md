@@ -9,7 +9,7 @@ categories: [ maps ]
     src="https://glitch.com/embed/#!/embed/pa-opioid-overdoses-2018?path=index.html&previewSize=100"
     title="pa-opioid-overdoses-2018 on Glitch"
     allow="geolocation; microphone; camera; midi; vr; encrypted-media"
-    style="border: 0; height: 100%; left: 0; position: absolute; right: 0; width: 100%;">
+    style="border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;">
   </iframe>
 </div>
 
