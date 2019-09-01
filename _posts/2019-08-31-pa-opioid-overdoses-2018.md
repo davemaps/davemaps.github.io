@@ -19,7 +19,7 @@ _Counties which experienced between one and nine deaths show no data, per PA Dep
 
 Feel free to [explore on Glitch][1].
 
-### Data
+#### Data
 [Estimated Accidental and Undetermined Drug Overdose Deaths CY 2017–18 County Health][2], from the Pennsylvania Department of Health.
 
 [2018 County Population Estimates][3], from the US Census Bureau and PA State Data Center
