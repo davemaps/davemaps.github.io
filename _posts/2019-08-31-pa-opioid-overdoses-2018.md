@@ -13,7 +13,7 @@ categories: [ maps ]
   </iframe>
 </div>
 
-Built a choropleth map of opioid overdose deaths in Pennsylvania in 2018, by county, using D3.js. The counties are shaded by the rate of overdose deaths, not the raw number.
+Built an interactive choropleth map of opioid overdose deaths in Pennsylvania in 2018, by county, using D3.js. The counties are shaded by the rate of overdose deaths, not the raw number.
 
 _Counties which experienced between one and nine deaths show no data, per PA Department of Health rules._
 
