@@ -4,7 +4,7 @@ date:   2019-08-31 21:25:25 -0400
 categories: [ maps ]
 ---
 
-<div class="glitch-embed-wrap" style="height: 650px; width: 100%;">
+<div class="glitch-embed-wrap" style="height: 660px; width: 100%;">
   <iframe
     src="https://glitch.com/embed/#!/embed/pa-opioid-overdoses-2018?path=index.html&previewSize=100"
     title="pa-opioid-overdoses-2018 on Glitch"
