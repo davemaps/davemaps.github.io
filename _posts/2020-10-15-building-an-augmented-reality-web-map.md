@@ -4,7 +4,7 @@ date:   2020-10-15 15:25:25 -0400
 categories: [ maps ]
 ---
 
-During [NACIS 2020](https://nacis.org), I presented Using Augmented Reality to Communicate Climate Change Pressure on Vancouver Island Marmot Habitat, my capstone project for the [Penn State Master of GIS program](https://gis.e-education.psu.edu/mgis). [Learn more about the project and test it yourself.](https://marmots.davemaps.com)
+During [NACIS 2020](https://nacis.org), I presented _Using Augmented Reality to Communicate Climate Change Pressure on Vancouver Island Marmot Habitat_, my capstone project for the [Penn State Master of GIS program](https://gis.e-education.psu.edu/mgis). [Learn more about the project and test it yourself.](https://marmots.davemaps.com)
 
 Below is a step-by-step guide to creating an augmented reality web map. Click on any of the screenshots for a larger view.
 
