@@ -4,8 +4,6 @@ date:   2020-10-15 15:25:25 -0400
 categories: [ maps ]
 ---
 
-WORK IN PROGRESS
-
 During [NACIS 2020](https://nacis.org), I presented Using Augmented Reality to Communicate Climate Change Pressure on Vancouver Island Marmot Habitat, my capstone project for the [Penn State Master of GIS program](https://gis.e-education.psu.edu/mgis). [Learn more about the project and test it yourself.](https://marmots.davemaps.com)
 
 Below is a step-by-step guide to creating an augmented reality web map. Click on any of the screenshots for a larger view.
@@ -120,9 +118,18 @@ Update the scaling settings here in Xcode to reduce the size of the model again 
 
 At this point you should have a .usdz file which you can open in Xcode or the Preview app on a Mac, or from any app on an iOS device. You may want to embed it on a website, however. Here’s the HTML syntax to use:
 
-`<a href="vic-peak.usdz" rel="ar">
-  <img src="vic-peak.jpg" alt="A map of Victoria Peak, showing marmot habitat">
-</a>`
+`<a href="vic-peak.usdz" rel="ar">`
+
+`  <img src="vic-peak.jpg" alt="A map of Victoria Peak, showing marmot habitat">`
+
+`</a>`
 
 To break that down, we have an image (take a screenshot of your map!) wrapped in a link. The link points to the .usdz file and has a rel attribute of “ar” to help browsers identify what to do with it.
 
+## Video Demo
+
+In the video below, I demo the model of Victoria Peak’s changing marmot habitat that I created in the screenshots of this step-by-step guide. Note that I also added a 3D text label for the mountain in Blender, which I didn’t include in the walkthrough.
+
+<video src="https://marmots.davemaps.com/vic-peak.mp4" controls style="max-width: 100%;">
+    Demo of the Victoria Peak augmented reality marmot habitat map.
+</video>
