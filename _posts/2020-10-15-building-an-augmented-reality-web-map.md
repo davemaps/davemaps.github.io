@@ -119,9 +119,9 @@ Update the scaling settings here in Xcode to reduce the size of the model again 
 ## Optional: Embed the Map in a Website
 
 At this point you should have a .usdz file which you can open in Xcode or the Preview app on a Mac, or from any app on an iOS device. You may want to embed it on a website, however. Here’s the code to use:
-	<a href="vic-peak.usdz" rel="ar">
+	`<a href="vic-peak.usdz" rel="ar">
 		<img src="vic-peak.jpg" alt="A map of Victoria Peak, showing marmot habitat">
-	</a>
+	</a>`
 
 To break that down, we have an image (take a screenshot of your map!) wrapped in a link. The link points to the .usdz file and has a rel attribute of “ar” to help browsers identify what to do with it.
 
