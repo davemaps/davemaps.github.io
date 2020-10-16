@@ -70,7 +70,7 @@ BlenderGIS uses the map as a custom material for the surface of the model and we
 
 ## Scaling in Blender
 
-[![Scaling the model in Blender]({{ "/assets/img/map-ar-how-to-blender-scaling.jpg" | absolute_url }})](/assets/img/map-ar-how-to-blender-scaling.png)
+[![Scaling the model in Blender]({{ "/assets/img/map-ar-how-to-blender-scale.jpg" | absolute_url }})](/assets/img/map-ar-how-to-blender-scale.png)
 
 My last step in Blender before exporting is to scale the model down a good bit, to get its dimensions relative to the real world more manageable for when we display this in AR. In this example I also do more scaling in Xcode, but liked the flexibility of breaking it into two steps so I could make fine adjustments later. Your mileage may vary!
 
@@ -80,5 +80,16 @@ My last step in Blender before exporting is to scale the model down a good bit, 
 
 And now we export from Blender as a Universal Scene Description file so that we can move into Xcode.
 
+## Opening in Xcode
+
+[![Opening the model in Xcode]({{ "/assets/img/map-ar-how-to-xcode-import.jpg" | absolute_url }})](/assets/img/map-ar-how-to-xcode-import.png)
+
+The first thing you’ll notice in Xcode is that we seem to have lost our map, but that’s ok. We’re going to perform one more optimization on our map GeoTIFF before bringing it back onto the model.
+
+## Optimizing with JPEG Compression
+
+[![Optimizing the map file with JPEG compression ]({{ "/assets/img/map-ar-how-to-photoshop-compress.jpg" | absolute_url }})](/assets/img/map-ar-how-to-photoshop-compress.png)
+
+In Photoshop, GDAL, or any other software capable of working with TIFFs, open your clipped map file and resave it using JPEG compression. It’s important that you do this step at this point in the process and not earlier. I couldn’t get the BlenderGIS plugin to successfully read a GeoTIFF with JPEG compression, but we’ll be fine to bring it into Xcode since the model is already set up. We’re going after file savings here, since you may be wishing to share your model across the Internet. With this high-res satellite imagery, I’m able to maintain a high quality file while reducing the size from 330MB to 10MB.
 
 
