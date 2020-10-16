@@ -88,8 +88,40 @@ The first thing you’ll notice in Xcode is that we seem to have lost our map, b
 
 ## Optimizing with JPEG Compression
 
-[![Optimizing the map file with JPEG compression ]({{ "/assets/img/map-ar-how-to-photoshop-compress.jpg" | absolute_url }})](/assets/img/map-ar-how-to-photoshop-compress.png)
+[![Optimizing the map file with JPEG compression]({{ "/assets/img/map-ar-how-to-photoshop-compress.jpg" | absolute_url }})](/assets/img/map-ar-how-to-photoshop-compress.png)
 
 In Photoshop, GDAL, or any other software capable of working with TIFFs, open your clipped map file and resave it using JPEG compression. It’s important that you do this step at this point in the process and not earlier. I couldn’t get the BlenderGIS plugin to successfully read a GeoTIFF with JPEG compression, but we’ll be fine to bring it into Xcode since the model is already set up. We’re going after file savings here, since you may be wishing to share your model across the Internet. With this high-res satellite imagery, I’m able to maintain a high quality file while reducing the size from 330MB to 10MB.
 
+## Re-Add the Map as the Material
+
+[![Dragging the optimized map TIFF onto the model as its material in Xcode]({{ "/assets/img/map-ar-how-to-xcode-drag-map.jpg" | absolute_url }})](/assets/img/map-ar-how-to-xcode-drag-map.png)
+
+Now we can jump back to Xcode, select our model, and flip to the Material inspector. From the Finder, drag your newly-compressed TIFF onto the object itself or onto the Diffuse setting, which is currently just a light gray swatch.
+
+## That’s Better
+
+[![Viewing the model with the map back on it in Xcode]({{ "/assets/img/map-ar-how-to-xcode-import-2.jpg" | absolute_url }})](/assets/img/map-ar-how-to-xcode-import-2.png)
+
+And now we have our optimized map back on the model.
+
+## Removing Reflections
+
+[![Increasing material roughness in Xcode]({{ "/assets/img/map-ar-how-to-xcode-roughness.jpg" | absolute_url }})](/assets/img/map-ar-how-to-xcode-roughness.png)
+
+Turn the material roughness all the way up to 1 to remove that shine from the model.
+
+## Final Scaling and Export
+
+[![Exporting the file from Xcode]({{ "/assets/img/map-ar-how-to-xcode-export.jpg" | absolute_url }})](/assets/img/map-ar-how-to-xcode-export.png)
+
+Update the scaling settings here in Xcode to reduce the size of the model again (trial and error to get a good size), and then export as Universal Scene Description Mobile to get the USDZ file that can displayed on mobile devices.
+
+## Optional: Embed the Map in a Website
+
+At this point you should have a .usdz file which you can open in Xcode or the Preview app on a Mac, or from any app on an iOS device. You may want to embed it on a website, however. Here’s the code to use:
+	<a href="vic-peak.usdz" rel="ar">
+		<img src="vic-peak.jpg" alt="A map of Victoria Peak, showing marmot habitat">
+	</a>
+
+To break that down, we have an image (take a screenshot of your map!) wrapped in a link. The link points to the .usdz file and has a rel attribute of “ar” to help browsers identify what to do with it.
 
