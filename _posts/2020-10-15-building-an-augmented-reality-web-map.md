@@ -6,11 +6,11 @@ categories: [ maps ]
 
 WORK IN PROGRESS
 
-During NACIS 2020, I presented Using Augmented Reality to Communicate Climate Change Pressure on Vancouver Island Marmot Habitat, my capstone project for the Penn State Master of GIS program. [Learn more about the project and test it yourself.](https://marmots.davemaps.com)
+During [NACIS 2020](https://nacis.org), I presented Using Augmented Reality to Communicate Climate Change Pressure on Vancouver Island Marmot Habitat, my capstone project for the [Penn State Master of GIS program](https://gis.e-education.psu.edu/mgis). [Learn more about the project and test it yourself.](https://marmots.davemaps.com)
 
 Below is a step-by-step guide to creating an augmented reality web map. Click on any of the screenshots for a larger view.
 
-This guide uses QGIS, Blender, Photoshop, and Xcode on macOS. You could certainly use ArcGIS or another GIS software, and replace the step in Photoshop with GDAL or GIMP, for example. I am not aware of a substitute for Xcode, where we convert the scene to a mobile USDZ file, although one may certainly exist.
+This guide uses [QGIS](https://qgis.org), [Blender](https://blender.org) and the [BlenderGIS plugin](https://github.com/domlysz/BlenderGIS), [Photoshop](https://www.adobe.com/products/photoshop.html), and [Xcode](https://developer.apple.com/xcode/) on macOS. You could likely use [ArcGIS](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview) or other GIS software, and replace the step in Photoshop with [GDAL](https://gdal.org) or other image manipulation software, for example. I am not aware of a substitute for Xcode, where we convert the scene to a mobile USDZ file, although one may certainly exist.
 
 ## Prepare Your DEM
 
@@ -22,4 +22,25 @@ I’ve loaded a large digital elevation model into QGIS. I then created a polygo
 
 [![Exporting the map from QGIS]({{ "/assets/img/map-ar-how-to-qgis-export-map.jpg" | absolute_url }})](/assets/img/map-ar-how-to-qgis-export-map.png)
 
-Next I need to save my map which will drape over the 3D model as a single GeoTIFF. You can see here I’m using satellite imagery as a basemap and have symbolized the habitat layers with some transparency, the habitat projected to be lost in a striped red and the remaining habitat in bright green. I used the mask layer as the extent and increased the resolution of the exported file to make sure there is plenty of detail in the imagery. This is a balancing act between file sizes and detail, of course.
+Next I need to save my map which will drape over the 3D model as a single GeoTIFF. You can see here I’m using satellite imagery as a basemap and have symbolized marmot habitat layers with some transparency, the habitat projected to be lost in a striped red and the remaining habitat in bright green. I used the mask layer as the extent and increased the resolution of the exported file to make sure there is plenty of detail in the imagery. This is a balancing act between file sizes and detail, of course.
+
+## Clip the Map TIFF
+
+[![Clipping the map TIFF in QGIS]({{ "/assets/img/map-ar-how-to-qgis-clip-tif.jpg" | absolute_url }})](/assets/img/map-ar-how-to-qgis-clip-tif.png)
+
+Because these GeoTIFF files are huge, I’m going to trim off any bit of extra that I can, clipping the newly exported map image by that same mask polygon.
+
+## Two Clipped TIFFs
+
+[![The clipped TIFF in QGIS]({{ "/assets/img/map-ar-how-to-qgis-map-clipped.jpg" | absolute_url }})](/assets/img/map-ar-how-to-qgis-map-clipped.png)
+
+That leaves us with two clipped TIFs that we’re going to use to make the 3D model in the next step.
+
+## Importing into Blender with BlenderGIS
+
+[![Importing the DEM into Blender]({{ "/assets/img/map-ar-how-to-blender-import-dem.jpg" | absolute_url }})](/assets/img/map-ar-how-to-blender-import-dem.png)
+
+Now I move into [Blender](https://blender.org), a popular free and open source 3D modeling software. Key to making everything work, especially for someone new to working with geospatial data in 3D (like me), is the [BlenderGIS plugin](https://github.com/domlysz/BlenderGIS). Follow the BlenderGIS instructions to get it installed, and then you’re ready to go.
+
+The first step in Blender is to use the BlenderGIS plugin (click the GIS button at the top left of the viewport) to import the DEM as a raw data build, which creates the 3D mesh.
+
