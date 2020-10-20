@@ -4,6 +4,8 @@ date:   2020-10-15 15:25:25 -0400
 categories: [ maps ]
 ---
 
+![Screenshot from an iPhone of an augmented reality map showing Victoria Peak on a kitchen table.]({{ "/assets/img/map-ar-vic-peak-table.jpg" | absolute_url }})
+
 During [NACIS 2020](https://nacis.org), I presented _Using Augmented Reality to Communicate Climate Change Pressure on Vancouver Island Marmot Habitat_, my capstone project for the [Penn State Master of GIS program](https://gis.e-education.psu.edu/mgis).
 
 [Learn more about the project and test it yourself.](https://marmots.davemaps.com)
