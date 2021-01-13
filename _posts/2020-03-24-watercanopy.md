@@ -12,4 +12,4 @@ I was hoping to dynamically calculate the statistics on the fly using Esri’s A
 
 Instead, I pre-calculated the statistics in ArcGIS Pro and manipulated my files in QGIS and Mapshaper (to deal with the right-hand rule!). The map is built with OpenLayers and loads with an Esri basemap and hillshade. The user can toggle the USFS Tree Canopy Cover layer, which loads in from the [MRLC Consortium](https://www.mrlc.gov). The watershed boundary polygons and statistics are loaded as static GeoJSON files. Zooming in and out and hovering over the watersheds at various levels provides statistics on the forest canopy cover.
 
-[Try it out!]((https://watercanopy.davemaps.com))
+[Try it out!](https://watercanopy.davemaps.com)
