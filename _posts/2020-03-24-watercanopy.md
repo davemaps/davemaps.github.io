@@ -6,7 +6,7 @@ categories: [ maps ]
 
 [![Screenshot of an interactive map of the Susquehanna Watershed.]({{ "/assets/img/map-watercanopy.jpg" | absolute_url }})](https://watercanopy.davemaps.com)
 
-For a convservation GIS grad course, I created an [interactive map displaying forest canopy cover statistics by watershed for the Susquehanna River](https://watercanopy.davemaps.com).
+For a conservation GIS grad course, I created an [interactive map displaying forest canopy cover statistics by watershed for the Susquehanna River](https://watercanopy.davemaps.com).
 
 I was hoping to dynamically calculate the statistics on the fly using Esri’s ArcGIS API for Javascript, but it looks like the ability to perform some of the necessary raster functions was removed from the latest major version of the API. It looks like Esri is pushing folks to use the ArcGIS Server product instead and perform the calculations on the server, not in the client.
 
