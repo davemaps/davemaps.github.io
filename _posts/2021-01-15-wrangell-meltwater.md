@@ -15,4 +15,4 @@ categories: [ maps ]
 
 Playing around with the [updated satellite imagery and v2 of Mapbox’s GL JS.](https://www.mapbox.com/blog/3d-satellite-maps-high-res-imagery). This feels like taking a floatplane tour of the glacial meltwater near Wrangell, AK, complete with a bit of turbulence! (Caused by not setting the focus point to avoid “bumping” over the mountains, I presume.)
 
-[Full link in case the Glitch doesn’t load](https://www.mapbox.com/blog/3d-satellite-maps-high-res-imagery)
+[Full link in case the Glitch doesn’t load](https://wrangell-meltwater.glitch.me/)
