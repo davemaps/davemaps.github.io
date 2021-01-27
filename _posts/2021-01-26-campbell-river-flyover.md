@@ -4,7 +4,7 @@ date:   2021-01-26 23:18:18 -0400
 categories: [ maps ]
 ---
 
-<video src="/assets/vid/mapbox-3d-flyover-campbell.mp4" controls loop style="max-width: 100%;">
+<video src="/assets/vid/mapbox-3d-flyover-campbell.mp4" poster="/assets/img/map-campbell-flyover.jpg" controls loop style="max-width: 100%;">
     Flying over a valley near the Campbell River on Vancouver Island.
 </video>
 
