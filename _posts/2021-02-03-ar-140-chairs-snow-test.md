@@ -4,7 +4,7 @@ date:   2021-02-03 16:18:18 -0400
 categories: [ maps ]
 ---
 
-<video src="/assets/vid/ar-140-chairs-snow-test-720.mov" poster="/assets/img/ar-140-chairs-snow-test.jpg" controls loop style="max-width: 100%;">
+<video src="/assets/vid/ar-140-chairs-snow-test-720.mov" poster="/assets/img/ar-140-chairs-snow-test.jpg" controls muted loop style="max-width: 100%;">
     Augmented Reality video showing 140 chairs in a snowy field.
 </video>
 
